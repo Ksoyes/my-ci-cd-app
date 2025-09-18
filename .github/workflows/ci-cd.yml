@@ -45,7 +45,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{github.repository_owner}}/my-python-app:latest            
-            ghcr.io/${{github.repository_owner}}/my-python-app:${{github.sha}}
+            ghcr.io/ksoyes/my-python-app:latest            
+            ghcr.io/ksoyes/my-python-app:${{github.sha}}
 
 
